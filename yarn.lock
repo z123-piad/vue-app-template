@@ -162,10 +162,10 @@
   dependencies:
     tslib "^2.4.0"
 
-"@types/node@^24.10.1":
-  version "24.10.4"
-  resolved "https://registry.npmjs.org/@types/node/-/node-24.10.4.tgz#9d27c032a1b2c42a4eab8fb65c5856a8b8e098c4"
-  integrity sha512-vnDVpYPMzs4wunl27jHrfmwojOGKya0xyM3sH+UE5iv5uPS6vX7UIoh6m+vQc5LGBq52HBKPIn/zcSZVzeDEZg==
+"@types/node@^25.0.3":
+  version "25.0.3"
+  resolved "https://registry.npmjs.org/@types/node/-/node-25.0.3.tgz#79b9ac8318f373fbfaaf6e2784893efa9701f269"
+  integrity sha512-W609buLVRVmeW693xKfzHeIV6nJGGz98uCPfeXI1ELMLXVeKYZ9m15fAMSaUPBHYLGFsVRcMmSCksQOrZV9BYA==
   dependencies:
     undici-types "~7.16.0"
 
@@ -238,6 +238,11 @@
   dependencies:
     "@vue/compiler-dom" "3.5.26"
     "@vue/shared" "3.5.26"
+
+"@vue/devtools-api@^6.6.4":
+  version "6.6.4"
+  resolved "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.6.4.tgz#cbe97fe0162b365edc1dba80e173f90492535343"
+  integrity sha512-sGhTPMuXqZ1rVOk32RylztWkfXTRhuS7vgAKv0zjqk8gbsHkJ7xfFf+jbySxt7tWObEJwyKaHMikV/WGDiQm8g==
 
 "@vue/language-core@3.2.1":
   version "3.2.1"
@@ -515,6 +520,13 @@ vscode-uri@^3.0.8:
   version "3.1.0"
   resolved "https://registry.npmjs.org/vscode-uri/-/vscode-uri-3.1.0.tgz#dd09ec5a66a38b5c3fffc774015713496d14e09c"
   integrity sha512-/BpdSx+yCQGnCvecbyXdxHDkuk55/G3xwnC0GqY4gmQ3j+A+g8kzzgB4Nk/SINjqn6+waqw3EgbVF2QKExkRxQ==
+
+vue-router@^4.6.4:
+  version "4.6.4"
+  resolved "https://registry.npmjs.org/vue-router/-/vue-router-4.6.4.tgz#a0a9cb9ef811a106d249e4bb9313d286718020d8"
+  integrity sha512-Hz9q5sa33Yhduglwz6g9skT8OBPii+4bFn88w6J+J4MfEo4KRRpmiNG/hHHkdbRFlLBOqxN8y8gf2Fb0MTUgVg==
+  dependencies:
+    "@vue/devtools-api" "^6.6.4"
 
 vue-tsc@^3.1.4:
   version "3.2.1"

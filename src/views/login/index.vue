@@ -1,13 +1,12 @@
 <script setup lang="ts">
 // 定义组件名称（便于调试和Vue DevTools识别）
 defineOptions({
-    name: "vue-app-template-App",
+    name: "LoginView",
 });
 </script>
 
 <template>
-    <!-- 路由出口：匹配的路由组件将在此处渲染 -->
-    <router-view />
+    login
 </template>
 
 <style scoped>
