@@ -10,6 +10,7 @@ yarn
 yarn dev
 
 ## 目录结构
+```
 src/
 ├── api/                  # 接口请求层（统一管理接口配置、类型、请求逻辑）
 │   ├── endpoints/        # 接口端点配置（URL、请求方法，需符合IApi类型）
@@ -48,6 +49,11 @@ src/
 │       └── index.vue     # 登录组件（页面逻辑、模板）
 ├── App.vue               # 根组件（路由出口、全局布局容器）
 └── main.ts               # 应用入口（初始化Vue、挂载插件）
+```
+
+
+
+
 
 
 https://juejin.cn/post/7567889397494988836?searchId=20251225145329193072B49D47E44A8F74#heading-1
